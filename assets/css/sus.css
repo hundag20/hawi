@@ -1,0 +1,169 @@
+/* Sustainability Hero Section */
+.sustainability-hero {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+.sustainability-hero img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.sustainability-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sustainability-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.sustainability-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Sustainable Practices Section */
+.sustainable-practices {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.sustainable-practices h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.practices-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.practice-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.practice-item:hover {
+    transform: scale(1.05);
+}
+
+.practice-item img {
+    max-width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.practice-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.practice-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Environmental Impact Section */
+.environmental-impact {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.environmental-impact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.environmental-impact p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.environmental-impact ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.environmental-impact ul li {
+    margin-bottom: 10px;
+}
+
+/* Future Goals Section */
+.future-goals {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.future-goals h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.future-goals p {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.future-goals ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.future-goals ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design for Sustainability Page */
+@media (max-width: 768px) {
+    .sustainability-content h1 {
+        font-size: 2rem;
+    }
+
+    .sustainability-content p {
+        font-size: 1rem;
+    }
+
+    .practices-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .practice-item {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .environmental-impact p,
+    .future-goals p {
+        font-size: 1rem;
+    }
+}
